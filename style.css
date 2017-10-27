@@ -1,0 +1,459 @@
+﻿@font-face{
+    font-family: 'Monly Serif Lite';
+    src: local('Monly Serif Lite'),
+        url('bootstrap/fonts/Monly-Serif-Bold.otf');
+    font-weight: bold;
+}
+
+
+body {
+    //overflow-y: hidden;
+    font-family: Monly Serif Lite,sans-serif;
+}
+a,
+a:active,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    font-size: 50px;
+}
+
+/*HEADER*/
+
+header,
+#dignity,
+.activ,
+.map,
+.video,
+.forma {
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.top_panel {
+    background-color: #1e1300;
+    height: 60px;
+    color: white;
+    padding-top: 15px;   
+    font-size: 20px;    
+}
+.top_panel a {    
+    font-size: 20px;
+    transition: 0.6s;
+}
+.top_panel a:hover {    
+    color: #e87c08;
+}
+.lang {
+    padding-left: 5px;   
+    margin:5px;   
+}
+.lang:last-child {
+    margin-right: 40px;
+}
+.menu {    
+    width: 100%;   
+    list-style: none;    
+}
+.menu li {
+    float: left;
+    margin-right: 10px;
+    position:relative;
+    display: block;
+}
+.menu li a {
+    display: block;
+    padding: 5px 5px 0 5px;    
+    font-size: 25px;
+}
+.menu li a:hover {
+    color: #9d8b5e;
+}
+.menu ul {    
+    position:absolute;
+    left:-9999px; 
+    opacity:0; 
+    -webkit-transition:0.25s linear opacity; 
+}
+.menu ul li {     
+    float:none;   
+}
+.menu ul a {
+    white-space:nowrap; 
+    display:block;   
+}
+.menu li:hover ul { 
+    left:-78px; 
+    opacity:1; 
+    text-align:center;
+}
+.menu li:hover .some {
+    left: -38px;
+}
+.menu li:hover ul li a:hover { 
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+}
+.menu .home {
+    color: #e87c08;
+}
+.hr_1,
+.hr_2 {
+    height: 1px;
+    width: 45px;
+    background-color: #fff;
+    margin: 10px 10px 0 38px;
+}
+.hr_2 {
+    margin: 10px 0 0 0;
+    width: 90px;
+}
+.header_main {
+    margin: 110px 0;
+    text-align: center;
+}
+.header_main h1 {
+    color: #e88d29;     
+    margin-top: 30px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top: 10px;
+    left: 175px;
+}
+a.down {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -25px;
+    line-height: 50px;
+    transition: 0.7s;    
+}
+a.down:hover {
+   border-color: #9d8b5e;
+   color: #9d8b5e;
+}
+.hr {
+    position: absolute;
+    display: none;
+    width: 2px;    
+    background-color: lightblue;
+}
+
+/*ДОСТОИНСТВА*/
+
+.dignity h1 {    
+    color: #031eb5;
+    margin-top: 30px;
+}
+.dignity_line {
+    height: 1px;
+    width: 100px;
+    background-color: #2f4efc;
+    margin: 0 auto;
+}
+.content {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.content h4 {
+    font-size: 35px;
+    color: navy;
+}
+.content p {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: indigo;
+}
+.content i {
+    font-size: 65px;
+    color: #29088A;
+}
+a.btn {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    width: 50px;
+    height: 50px;    
+    line-height: 37px;
+    transition: 0.7s;
+}
+a.btn:hover {
+    border-color: #031eb5;
+    color: #031eb5;
+}
+
+/*АКТИВ*/
+
+.activ {    
+    background: url("img/activ/bg.png");    
+}
+.activ h1 {
+    color: #e88d29;    
+    margin: 30px 0;
+}
+.carousel  {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;    
+}
+.activ h3,
+.activ p{
+    font-family: 'Times New Roman', sans-serif;
+}
+
+/*ГЕОГРАФИЯ СТУДЕНТОВА*/
+.geography {
+    background: url('img/map/karta.png');
+    width: 879px;
+    height: 589px;
+    margin: 0 auto;
+}
+.map .student {
+    width: 35px;
+    height: 35px;
+    transition: 0.4s;
+    position: relative;
+    display: inline-block;  
+}
+
+.num_1 {    
+     
+}
+.num_2 {
+    
+}
+.num_3 {
+    
+}
+.num_4 {
+    
+}
+.num_5 {
+    
+}
+.num_6 {
+    
+}
+.num_7 {
+   
+}
+.num_8 {
+    
+}
+.num_9 {
+   
+}
+.num_10 {
+    
+   
+}
+.num_11 {
+  
+}
+.num_12 {
+    
+}
+.num_13 {
+   
+}
+.num_14 {
+    
+}
+.num_15 {
+    
+}
+.num_16 {
+    
+}
+.num_17 {
+  
+}
+.num_18 {
+    
+}
+.num_19 {
+  
+}
+.num_20 {
+    
+}
+.num_21 {
+    
+}
+.num_22 {
+   
+}
+.num_23 {
+    
+}
+.num_24 {
+    
+}
+.num_25 {
+    
+    
+}
+.num_26 {
+   
+}
+.map a:hover  .student{
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    z-index: 9999;
+}
+
+/*VIDEO*/
+.video {
+    background: url("img/video/bg.jpg");
+}
+.video h1 {
+    color: #e88d29;
+    padding: 30px 0 50px 0;
+}
+.video_block {
+    position:relative;
+}
+.video_block:hover .image-wrap {
+    opacity: 1;
+}
+.image-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+    background-color: rgba(0,224,208,.6);
+}
+.video_desc {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.p0 {
+    padding:0;
+}
+
+/*FOOTER*/
+footer {
+    background: url("img/footer/bg.jpg") no-repeat;
+    height: 120px;    
+    color: white;    
+}
+.bottom {
+    margin: 30px 550px;
+} 
+.social_btn{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 5px;
+    margin: 15px 3px 10px 0;
+}
+.social_btn span {
+    font-size: 20px;
+}
+.social_btn:hover {
+    border-color: #e87c08;
+}
+.social_btn a:hover {
+    color: #e87c08;
+}
+
+
+
+/*MEDIA*/
+@media only screen and (max-width: 768px) {
+    .logo  {        
+        top:-60px;
+        left: 0;
+    }
+    nav {
+        position: fixed;
+        background: rgb(98,68,0);        
+        top: 50px;
+        width: 100%;
+        height: 60px;
+        z-index:999;
+    }
+    .menu_btn {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        color: #fff;
+        background-color: #e87c08;
+        margin-right: 40px;
+    }
+    .menu {       
+        display: block;
+        background: rgb(98,68,0);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .menu li {
+        display: block;
+        float: none;           
+    }
+    .menu li:nth-last-of-type(1) {
+        margin-bottom: 15px;
+    }
+    .menu li a {
+        font-size: 30px;
+        text-align: center;
+     }
+     .menu li:hover ul {
+        position: relative;
+        left: 55px;                
+     }
+     .menu li:hover .some {
+        left: 15px;
+      }
+     .menu li:hover .hr {
+        display:block;
+        left: 342px;
+        height: 100px;
+      }
+     .menu .show:hover .hr {
+        height: 140px;
+      }
+     .some li:last-child {
+         margin-bottom: 0;
+     }
+    .hr_1,
+    .hr_2 {
+        display: none;
+    }
+    .header_main {
+        margin: 225px 0;
+    }
+    .top_panel {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+    a.btn {
+        margin: 0 0 0 360px;
+    }
+   
+}
+
+
